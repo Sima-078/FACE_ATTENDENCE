@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Face Attendance data
+# Ignore student face images and directories inside dataset
+dataset/*
+!dataset/.gitkeep
+
+# Ignore trained model file and names mapping
+trainer/*.yml
+trainer/student_names.txt
+!trainer/.gitkeep
+
+# Ignore recorded attendance logs
+attendance/*.csv
+!attendance/.gitkeep
